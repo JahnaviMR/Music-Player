@@ -21,26 +21,28 @@ let songIndex = 0;
 
 // Music
 const songs = [
-  {
+   {
     name: "song-1",
-    displayName: "Tell me",
-    artist: "Atanas Kolev",
-  },
-  {
-    name: "song-2",
-    displayName: "The adventures of Mr.Hardy",
-    artist: "Yuvan shankar raja",
-  },
-  {
-    name: "song-3",
     displayName: "Thuli Thuli",
     artist: "Yuvan shankar raja",
   },
   {
-    name: "song-4",
+    name: "song-2",
+    displayName: "Tell me",
+    artist: "Atanas Kolev",
+  },
+  {
+    name: "song-3",
     displayName: "Faded",
     artist: "Alan walker",
   },
+  {
+    name: "song-4",
+    displayName: "The adventures of Mr.Hardy",
+    artist: "Yuvan shankar raja",
+  },
+ 
+  
   {
     name: "song-5",
     displayName: "Heeriye ",
