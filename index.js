@@ -56,6 +56,7 @@ const songs = [
 // Random Background Color
 const randomBgColor = function () {
   // Get a random number between 64 to 256 (for getting lighter colors)
+  
   let red = Math.floor(Math.random() * 256) + 64;
   let green = Math.floor(Math.random() * 256) + 64;
   let blue = Math.floor(Math.random() * 256) + 64;
@@ -84,7 +85,7 @@ loadSong(songs[songIndex]);
 // Play
 const playSong = function () {
   isPlaying = true;
-  playBtn.classList.replace("play-circle", "pause-circle");
+  playBtn.classList.replace("fa-play-circle", "fa-pause-circle");
   playBtn.setAttribute("title", "Pause");
   music.play();
 }
@@ -92,7 +93,7 @@ const playSong = function () {
 // Pause
 const pauseSong = function () {
   isPlaying = false;
-  playBtn.classList.replace("pause-circle", "play-circle");
+  playBtn.classList.replace("fa-pause-circle", "fa-play-circle");
   playBtn.setAttribute("title", "Play");
   music.pause();
 }
@@ -102,12 +103,12 @@ const toggleMute = function () {
   if (music.muted) {
     music.muted = false;
     volumeSlider.value = 50;
-    volumeBtn.classList.replace("volume-mute", "volume-up");
+    volumeBtn.classList.replace("fa-volume-mute", "fa-volume-up");
     volumeBtn.setAttribute("title", "Mute");
   } else {
     music.muted = true;
     volumeSlider.value = 0;
-    volumeBtn.classList.replace("volume-up", "volume-mute");
+    volumeBtn.classList.replace("fa-volume-up", "fa-volume-mute");
     volumeBtn.setAttribute("title", "Unmute");
   }
 }
