@@ -22,62 +22,62 @@ let songIndex = 0;
 // Music
 const songs = [
   {
-    name: "song-1",
+    name: "song-01",
     displayName: "Tell me",
     artist: "Atanas Kolev",
   },
   {
-    name: "song-2",
+    name: "song-02",
     displayName: "remarks",
     artist: "Dim4ou",
   },
   {
-    name: "song-3",
+    name: "song-03",
     displayName: "I don't forget you",
     artist: "Preslava",
   },
   {
-    name: "song-4",
+    name: "song-04",
     displayName: "Single",
     artist: "Galin",
   },
   {
-    name: "song-5",
+    name: "song-05",
     displayName: "I've Been Thinking",
     artist: "Sevenhills",
   },
   {
-    name: "song-6",
+    name: "song-06",
     displayName: "The adventures of Mr.Hardy",
     artist: "Yuvan shankar raja",
   },
   {
-    name: "song-7",
+    name: "song-07",
     displayName: "Thuli Thuli",
     artist: "Yuvan shankar raja",
   },
   {
-    name: "song-8",
+    name: "song-08",
     displayName: "Faded",
     artist: "Alan walker",
   },
   {
-    name: "song-9",
+    name: "song-09",
     displayName: "Heeriye ",
     artist: "Arijit Singh",
   },
   {
-    name: "song-t10",
+    name: "song-10",
     displayName: "nazm nazm",
     artist: "Arko pravo Mukherjee",
   },
   {
-    name: "song-t11",
+    name: "song-11",
     displayName: ":abcdefu",
     artist: "Gayle",
   },
   {
-    name: "song-t12",
+    name: "song-12",
     displayName: "bombe heluthaithe",
     artist: "Vijay prakash",
   }
