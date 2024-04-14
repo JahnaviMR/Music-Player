@@ -27,57 +27,57 @@ const songs = [
     artist: "Atanas Kolev",
   },
   {
-    name: "song-02",
+    name: "song-2",
     displayName: "remarks",
     artist: "Dim4ou",
   },
   {
-    name: "song-03",
+    name: "song-3",
     displayName: "I don't forget you",
     artist: "Preslava",
   },
   {
-    name: "song-04",
+    name: "song-4",
     displayName: "Single",
     artist: "Galin",
   },
   {
-    name: "song-05",
+    name: "song-5",
     displayName: "I've Been Thinking",
     artist: "Sevenhills",
   },
   {
-    name: "song-06",
+    name: "song-6",
     displayName: "The adventures of Mr.Hardy",
     artist: "Yuvan shankar raja",
   },
   {
-    name: "song-07",
+    name: "song-7",
     displayName: "Thuli Thuli",
     artist: "Yuvan shankar raja",
   },
   {
-    name: "song-08",
+    name: "song-8",
     displayName: "Faded",
     artist: "Alan walker",
   },
   {
-    name: "song-09",
+    name: "song-9",
     displayName: "Heeriye ",
     artist: "Arijit Singh",
   },
   {
-    name: "song-10",
+    name: "song-t10",
     displayName: "nazm nazm",
     artist: "Arko pravo Mukherjee",
   },
   {
-    name: "song-11",
+    name: "song-t11",
     displayName: ":abcdefu",
     artist: "Gayle",
   },
   {
-    name: "song-12",
+    name: "song-t12",
     displayName: "bombe heluthaithe",
     artist: "Vijay prakash",
   }
