@@ -53,8 +53,8 @@ const songs = [
   },
   {
     name: "song-7",
-    displayName: ":abcdefu",
-    artist: "Gayle",
+    displayName: "Remarks",
+    artist: "Dim4ou",
   },
   {
     name: "song-8",
