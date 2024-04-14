@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="MP_favicon.jpg" />
- 
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="main.css" />
+
+    <link rel="stylesheet" href="MP.css" />
     
-    <script defer src="index.js"></script>
+    <script defer src="MP.js"></script>
+
     <title>Music Player</title>
+
   </head>
-  
+
   <body>
     <div class="player-container">
       
@@ -34,13 +37,13 @@
       </div>
       
       <div class="player-controls">
-        <i class="icon backward" id="prev" title="Previous"></i>
-        <i class="icon play-circle main-button" id="play" title="Play"></i>
-        <i class="icon forward" id="next" title="Next"></i>
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play-circle main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
       </div>
       
       <div class="volume-controls">
-        <i class="icon volume-up volume-btn" title="Mute"></i>
+        <i class="fas fa-volume-up volume-btn" title="Mute"></i>
         <input
           type="range"
           min="0"
