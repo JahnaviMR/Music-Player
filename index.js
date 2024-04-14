@@ -41,8 +41,6 @@ const songs = [
     displayName: "The adventures of Mr.Hardy",
     artist: "Yuvan shankar raja",
   },
- 
-  
   {
     name: "song-5",
     displayName: "Heeriye ",
