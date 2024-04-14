@@ -51,7 +51,8 @@ const songs = [
     displayName: "The adventures of Mr.Hardy",
     artist: "Yuvan shankar raja",
   },
-  name: "song-7",
+  {
+    name: "song-7",
     displayName: "Thuli Thuli",
     artist: "Atanas Kolev",
   },
