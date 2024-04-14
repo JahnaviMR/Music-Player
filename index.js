@@ -54,11 +54,11 @@ const songs = [
   {
     name: "song-7",
     displayName: "Thuli Thuli",
-    artist: "Atanas Kolev",
+    artist: "Yuvan shankar raja",
   },
   {
     name: "song-8",
-    displayName: "Faded ",
+    displayName: "Faded",
     artist: "Alan walker",
   },
   {
