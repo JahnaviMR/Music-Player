@@ -22,7 +22,7 @@ let songIndex = 0;
 // Music
 const songs = [
   {
-    name: "song-01",
+    name: "song-1",
     displayName: "Tell me",
     artist: "Atanas Kolev",
   },
