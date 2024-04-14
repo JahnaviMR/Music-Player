@@ -49,7 +49,36 @@ const songs = [
   {
     name: "song-6",
     displayName: "The adventures of Mr.Hardy",
-    artist: "Roman Dudchyk",
+    artist: "Yuvan shankar raja",
+  },
+  name: "song-7",
+    displayName: "Thuli Thuli",
+    artist: "Atanas Kolev",
+  },
+  {
+    name: "song-8",
+    displayName: "Faded ",
+    artist: "Alan walker",
+  },
+  {
+    name: "song-9",
+    displayName: "Heeriye ",
+    artist: "Arijit Singh",
+  },
+  {
+    name: "song-10",
+    displayName: "nazm nazm",
+    artist: "Arko pravo Mukherjee",
+  },
+  {
+    name: "song-11",
+    displayName: ":abcdefu",
+    artist: "Gayle",
+  },
+  {
+    name: "song-12",
+    displayName: "bombe heluthaithe",
+    artist: "Vijay prakash",
   }
 ];
 
