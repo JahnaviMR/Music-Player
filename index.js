@@ -39,7 +39,7 @@ const songs = [
   {
     name: "song-4",
     displayName: "The adventures of Mr.Hardy",
-    artist: "Yuvan shankar raja",
+    artist: "Roman Dudchyk",
   },
   {
     name: "song-5",
