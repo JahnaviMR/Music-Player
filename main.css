@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%; 
   box-sizing: border-box;
 }
 
@@ -76,7 +76,6 @@ h3 {
   background: #252525;
   border-radius: 5px;
   height: 100%;
-  /* change this to show progress */
   width: 0%;
   transition: width 0.1s linear;
   transition: opacity 0.15s;
@@ -166,4 +165,229 @@ h3 {
     height: 24rem;
     width: 24rem;
   }
+}
+
+
+/* Search styles */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+#search-input {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.25);
+}
+
+#search-button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #252525;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #444;
+}
+
+#search-message {
+  font-size: 1.6rem;
+  color: red;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2.5rem;
+    margin: 1.5rem;
+    width: 70rem;
+    border-radius: 10px;
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.25);
+  }
+  
+  .login-container button {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #444;
+  }
+
+/* Add this CSS at the end of your existing CSS */
+
+/* Advanced Styling for Front Page */
+.front-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.front-page-container h1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: slideDown 1s ease-in-out;
+}
+
+.front-page-container button {
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #252525;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: slideUp 1s ease-in-out;
+}
+
+.front-page-container button:hover {
+  background-color: #444;
+  transform: translateY(-5px);
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Song List Container */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2.5rem;
+  margin: 1.5rem;
+  width: 70rem;
+  border-radius: 10px;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.list-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#song-list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+#song-list li {
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#song-list li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Song List Button */
+#list-button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #252525;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+#list-button:hover {
+  background-color: #444;
 }
